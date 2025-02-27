@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprende Inglés con Ana</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="bg-primary text-white p-3">
+        <div class="container">
+            <h1>Aprende Inglés con Ana</h1>
+            <button id="lang-switch" class="btn btn-light">Switch to English</button>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link translatable" href="index.html" data-es="Inicio" data-en="Home">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link translatable" href="lessons.html" data-es="Lecciones" data-en="Lessons">Lecciones</a></li>
+                <li class="nav-item"><a class="nav-link translatable" href="progress.html" data-es="Progreso" data-en="Progress">Progreso</a></li>
+                <li class="nav-item"><a class="nav-link translatable" href="help.html" data-es="Ayuda" data-en="Help">Ayuda</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="container my-5">
+        <h2 class="translatable" data-es="Bienvenida" data-en="Welcome">Bienvenida</h2>
+        <p class="translatable" data-es="Este es tu programa para aprender inglés. Haz clic en 'Lecciones' para empezar." data-en="This is your program to learn English. Click 'Lessons' to start.">Este es tu programa para aprender inglés. Haz clic en 'Lecciones' para empezar.</p>
+    </main>
+    <footer class="bg-light p-3 text-center">
+        <p>&copy; 2023 Aprende Inglés con Ana</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecciones - Aprende Inglés con Ana</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="bg-primary text-white p-3">
+        <div class="container">
+            <h1>Aprende Inglés con Ana</h1>
+            <button id="lang-switch" class="btn btn-light">Switch to English</button>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link translatable" href="index.html" data-es="Inicio" data-en="Home">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link translatable" href="lessons.html" data-es="Lecciones" data-en="Lessons">Lecciones</a></li>
+                <li class="nav-item"><a class="nav-link translatable" href="progress.html" data-es="Progreso" data-en="Progress">Progreso</a></li>
+                <li class="nav-item"><a class="nav-link translatable" href="help.html" data-es="Ayuda" data-en="Help">Ayuda</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="container my-5">
+        <h2 class="translatable" data-es="Lecciones" data-en="Lessons">Lecciones</h2>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <h5>Lección 1: Saludos</h5>
+                <p class="translatable" data-es="Aprende cómo saludar en inglés." data-en="Learn how to greet in English.">Aprende cómo saludar en inglés.</p>
+                <a href="lesson1.html" class="btn btn-primary translatable" data-es="Comenzar" data-en="Start">Comenzar</a>
+            </li>
+        </ul>
+    </main>
+    <footer class="bg-light p-3 text-center">
+        <p>&copy; 2023 Aprende Inglés con Ana</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lección 1: Saludos - Aprende Inglés con Ana</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="bg-primary text-white p-3">
+        <div class="container">
+            <h1>Aprende Inglés con Ana</h1>
+            <button id="lang-switch" class="btn btn-light">Switch to English</button>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link translatable" href="index.html" data-es="Inicio" data-en="Home">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link translatable" href="lessons.html" data-es="Lecciones" data-en="Lessons">Lecciones</a></li>
+                <li class="nav-item"><a class="nav-link translatable" href="progress.html" data-es="Progreso" data-en="Progress">Progreso</a></li>
+                <li class="nav-item"><a class="nav-link translatable" href="help.html" data-es="Ayuda" data-en="Help">Ayuda</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="container my-5">
+        <h2>Lección 1: Saludos</h2>
+        <div class="mb-4">
+            <h3 class="translatable" data-es="Explicación" data-en="Explanation">Explicación</h3>
+            <p>En inglés, se dice "Hello" para saludar, que significa "Hola" en español.</p>
+        </div>
+        <div class="mb-4">
+            <h3 class="translatable" data-es="Ejercicio" data-en="Exercise">Ejercicio</h3>
+            <p class="translatable" data-es="Selecciona la traducción de 'Hello':" data-en="Select the translation of 'Hello':">Selecciona la traducción de "Hello":</p>
+            <button class="btn btn-outline-primary" onclick="checkAnswer('Hola', 'Correcto!')">Hola</button>
+            <button class="btn btn-outline-primary" onclick="checkAnswer('Adiós', 'Intenta de nuevo.')">Adiós</button>
+        </div>
+        <div class="mb-4">
+            <h3 class="translatable" data-es="Quiz" data-en="Quiz">Quiz</h3>
+            <p class="translatable" data-es="¿Qué significa 'Goodbye'?" data-en="What does 'Goodbye' mean?">¿Qué significa "Goodbye"?</p>
+            <button class="btn btn-outline-primary" onclick="checkQuiz('Adiós', 'Correcto!')">Adiós</button>
+            <button class="btn btn-outline-primary" onclick="checkQuiz('Hola', 'Intenta de nuevo.')">Hola</button>
+        </div>
+    </main>
+    <footer class="bg-light p-3 text-center">
+        <p>&copy; 2023 Aprende Inglés con Ana</p>
+    </footer>
+    <script>
+        function checkAnswer(userAnswer, feedback) {
+            alert(feedback);
+        }
+
+        function checkQuiz(userAnswer, feedback) {
+            alert(feedback);
+            if (feedback === 'Correcto!') {
+                localStorage.setItem('lesson1', 'completed');
+            }
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
+​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progreso - Aprende Inglés con Ana</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="bg-primary text-white p-3">
+        <div class="container">
+            <h1>Aprende Inglés con Ana</h1>
+            <button id="lang-switch" class="btn btn-light">Switch to English</button>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link translatable" href="index.html" data-es="Inicio" data-en="Home">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link translatable" href="lessons.html" data-es="Lecciones" data-en="Lessons">Lecciones</a></li>
+                <li class="nav-item"><a class="nav-link translatable" href="progress.html" data-es="Progreso" data-en="Progress">Progreso</a></li>
+                <li class="nav-item"><a class="nav-link translatable" href="help.html" data-es="Ayuda" data-en="Help">Ayuda</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="container my-5">
+        <h2 class="translatable" data-es="Progreso" data-en="Progress">Progreso</h2>
+        <p class="translatable" data-es="Aquí puedes ver tus lecciones completadas." data-en="Here you can see your completed lessons.">Aquí puedes ver tus lecciones completadas.</p>
+        <ul id="progress-list" class="list-group"></ul>
+    </main>
+    <footer class="bg-light p-3 text-center">
+        <p>&copy; 2023 Aprende Inglés con Ana</p>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const progressList = document.getElementById('progress-list');
+            if (localStorage.getItem('lesson1') === 'completed') {
+                const li = document.createElement('li');
+                li.className = 'list-group-item';
+                li.textContent = 'Lección 1: Saludos - Completada';
+                progressList.appendChild(li);
+            }
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayuda - Aprende Inglés con Ana</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="bg-primary text-white p-3">
+        <div class="container">
+            <h1>Aprende Inglés con Ana</h1>
+            <button id="lang-switch" class="btn btn-light">Switch to English</button>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link translatable" href="index.html" data-es="Inicio" data-en="Home">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link translatable" href="lessons.html" data-es="Lecciones" data-en="Lessons">Lecciones</a></li>
+                <li class="nav-item"><a class="nav-link translatable" href="progress.html" data-es="Progreso" data-en="Progress">Progreso</a></li>
+                <li class="nav-item"><a class="nav-link translatable" href="help.html" data-es="Ayuda" data-en="Help">Ayuda</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="container my-5">
+        <h2 class="translatable" data-es="Ayuda" data-en="Help">Ayuda</h2>
+        <p class="translatable" data-es="Si necesitas ayuda, contáctame en ejemplo@email.com." data-en="If you need help, contact me at example@email.com.">Si necesitas ayuda, contáctame en ejemplo@email.com.</p>
+    </main>
+    <footer class="bg-light p-3 text-center">
+        <p>&copy; 2023 Aprende Inglés con Ana</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+main {
+    min-height: 60vh;
+}
+
+.btn {
+    margin: 5px;
+}
+​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+document.addEventListener('DOMContentLoaded', function() {
+    const langSwitch = document.getElementById('lang-switch');
+    let currentLang = 'es';
+
+    langSwitch.addEventListener('click', function() {
+        if (currentLang === 'es') {
+            document.querySelectorAll('.translatable').forEach(el => {
+                el.textContent = el.dataset.en;
+            });
+            langSwitch.textContent = 'Cambiar a Español';
+            currentLang = 'en';
+        } else {
+            document.querySelectorAll('.translatable').forEach(el => {
+                el.textContent = el.dataset.es;
+            });
+            langSwitch.textContent = 'Switch to English';
+            currentLang = 'es';
+        }
+    });
+});
+​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
